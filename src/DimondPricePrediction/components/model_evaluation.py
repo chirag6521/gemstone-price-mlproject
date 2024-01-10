@@ -31,7 +31,7 @@ class ModelEvaluation:
 
         
 
-            mlflow.set_registry_uri("https://dagshub.com/sunny.savita/fsdsmendtoend.mlflow")
+            mlflow.set_registry_uri("https://dagshub.com/chiragsingh38988/gemstone-price-mlproject.mlflow")
             
             tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
             
@@ -67,3 +67,8 @@ class ModelEvaluation:
             
         except Exception as e:
             raise e
+        
+        MLFLOW_TRACKING_URI=https://dagshub.com/chiragsingh38988/gemstone-price-mlproject.mlflow \
+MLFLOW_TRACKING_USERNAME=chiragsingh38988 \
+MLFLOW_TRACKING_PASSWORD=f2e85f091e37ae49eeb80f508d5ce2e58e41cce9 \
+python script.py
