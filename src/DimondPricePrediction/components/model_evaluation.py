@@ -67,8 +67,3 @@ class ModelEvaluation:
             
         except Exception as e:
             raise e
-        
-        MLFLOW_TRACKING_URI=https://dagshub.com/chiragsingh38988/gemstone-price-mlproject.mlflow \
-MLFLOW_TRACKING_USERNAME=chiragsingh38988 \
-MLFLOW_TRACKING_PASSWORD=f2e85f091e37ae49eeb80f508d5ce2e58e41cce9 \
-python script.py
